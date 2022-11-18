@@ -12,7 +12,7 @@ import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.converter.crypto.CryptoDataFormat;
 import org.springframework.stereotype.Component;
 
-@Component
+// @Component
 public class ActiveMqSenderRouter extends RouteBuilder {
 
 	@Override
