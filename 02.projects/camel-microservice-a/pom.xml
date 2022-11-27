@@ -29,6 +29,10 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-activemq</artifactId>
+		</dependency>
+		<dependency>
 			<groupId>org.apache.camel.springboot</groupId>
 			<artifactId>camel-spring-boot-starter</artifactId>
 			<version>${camel.version}</version>
@@ -46,16 +50,21 @@
 			<version>${camel.version}</version>
 		</dependency>
 
-		<dependency>
-			<groupId>org.apache.camel.springboot</groupId>
-			<artifactId>camel-crypto-starter</artifactId>
-			<version>${camel.version}</version>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>org.apache.camel.springboot</groupId>-->
+<!--			<artifactId>camel-crypto-starter</artifactId>-->
+<!--			<version>${camel.version}</version>-->
+<!--		</dependency>-->
 
 		<dependency>
 			<groupId>org.apache.camel.springboot</groupId>
 			<artifactId>camel-jackson-starter</artifactId>
 			<version>${camel.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
 		</dependency>
 
 		<dependency>
