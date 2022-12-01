@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
-@Component
+//@Component
 public class PullMessageInfra extends RouteBuilder {
 
   @Override

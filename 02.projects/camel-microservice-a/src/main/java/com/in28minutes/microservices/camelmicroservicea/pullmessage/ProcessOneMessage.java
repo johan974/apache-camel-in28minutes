@@ -11,7 +11,7 @@ import org.springframework.transaction.annotation.Transactional;
 import javax.jms.Message;
 import java.time.LocalDateTime;
 
-@Component
+//@Component
 public class ProcessOneMessage {
   Logger logger = LoggerFactory.getLogger(ProcessOneMessage.class);
 
